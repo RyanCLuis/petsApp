@@ -1,11 +1,12 @@
 {
-  "name": "pets-App",
+  "name": "PetsAPI",
   "version": "1.0.0",
   "description": "a nice little api about pets and their toys",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node ./app/models/seedPets.js"
   },
   "author": "Ryan Luis",
   "license": "ISC",
