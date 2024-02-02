@@ -1,7 +1,7 @@
 {
   "name": "pets-App",
   "version": "1.0.0",
-  "description": "Auth boilerplate for mongoose express using token auth",
+  "description": "a nice little api about pets and their toys",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
